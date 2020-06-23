@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\H185283\OneDrive - Honeywell\Documenten\Proj\AssemblyLoadContextIssue\Alc.Cons\bin\Debug\Modules\Alc.Services.ServerV1\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alc.SimpleDemoLibrary" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alc.Services\Alc.Services.csproj" />
+  </ItemGroup>
+
+</Project>
